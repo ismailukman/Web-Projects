@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Ismaila Lukman</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.css" rel="stylesheet">
+
+    <!-- Google Font -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <!-- FontAwesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js" integrity="sha384-3LK/3kTpDE/Pkp8gTNp2gR/2gOiwQ6QaO7Td0zV76UFJVhqLl4Vl3KL1We6q6wR9" crossorigin="anonymous"></script>
+    <!-- Global CSS -->
+     <!-- <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   -->
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="assets/css/orbit-4.css">
+
+
+  <style>
+
+    .map-container{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+  </style>
+</head>
+
+<body class="grey lighten-3">
+
+  <!--Main Navigation-->
+  <header>
+
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light white scrolling-navbar">
+      <div class="container-fluid">
+
+        <!-- Brand 
+        <a class="navbar-brand waves-effect" href="#"  >
+          <strong class="blue-text">MDB</strong>
+        </a>-->
+
+        <!-- Collapse -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Links -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+          <!-- Left -->
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active"> 
+              <a href="index.html" class="btn btn-outline-primary"  role="button"> <i class="fas fa-home" aria-hidden="true"></i> Home <span class="sr-only">(current)</span>  </a>
+ 
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="btn btn-outline-primary" role="button">About</a>
+            </li> 
+
+            <div class="dropdown">
+              <button class="btn btn-outline-primary dropdown-toggle waves-effect" type="button" id="dropdownMenu4" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Research
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenu4"> 
+                <a class="dropdown-item" href="research.html">Projects</a>
+              </div>
+            </div>
+
+            <div class="dropdown">
+              <button class="btn btn-outline-primary dropdown-toggle waves-effect" type="button" id="dropdownMenu4" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Portfolio
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenu4"> 
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="portfolio.html">Gallery</a>
+                <a class="dropdown-item" href="lectures.html">Lectures</a>
+                <a class="dropdown-item" href="sketch.php">Sketch</a>
+              </div>
+            </div>
+
+          </ul>
+
+          <!-- Right -->
+          <ul class="navbar-nav nav-flex-icons">
+            
+            <li class="nav-item">
+              <a href="https://www.linkedin.com/in/ismailukmanenegi/" class="nav-link border border-light rounded waves-effect"  >
+                <i class="fab fa-linkedin mr-2"></i>Linkedin
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link border border-light rounded waves-effect" >
+                <i class="fab fa-github mr-2"></i>GitHub
+              </a>
+            </li>
+          </ul>
+
+        </div>
+
+      </div>
+    </nav>
+    <!-- Navbar -->
+
+     
+
+  </header>
+  <!--Main Navigation-->
+
+  <!--Main layout-->
+  <main class="pt-5 mx-lg-5">
+    <div class="container-fluid mt-5">
+      <!-- Heading -->
+
+      <div class="wrapper">
+        <div class="sidebar-wrapper">
+            <div class="profile-container">
+                <img class="profile" src="assets/images/profiles.png" alt="" />
+                <h4 class="name">Ismaila Lukman Enegi</h4>
+                <h5 class="tagline">Doctoral Research Student</h5>
+            </div><!--//profile-container-->
+            
+            <div class="contact-container container-block">
+                <ul class="list-unstyled contact-list">
+                    <li class="email"><i class="fas fa-envelope"></i><a href="mailto: ismailukman@gmail.com">ismailukman@gmail.com</a></li>
+                    <li class="phone"><i class="fas fa-phone"></i><a href="tel:08136605722">+33753128673</a></li>
+                    <li class="website"><i class="fas fa-globe"></i><a href="https://ismailukman.herokuapp.com/">ismailukman.com</a></li>
+                    <li class="linkedin"><i class="fab fa-linkedin-in"></i><a href="https://www.linkedin.com/in/ismailukmanenegi/" > ismailukman</a></li>
+                    <li class="github"><i class="fab fa-github"></i><a href="https://github.com/ismailukman"> ismailukman</a></li>
+                    <li class="twitter"><i class="fab fa-twitter"></i><a href="#" >@LukmanEnegi</a></li>
+                </ul>
+            </div><!--//contact-container-->
+            <div class="education-container container-block">
+                <h2 class="container-block-title">Education</h2>
+                <div class="item">
+                    <h4 class="degree"><i class="fas fa-user-graduate"></i> PhD Computer Science</h4>
+                    <h5 class="meta">Université d’Angers</h5>
+                    <div class="time">Sept 2020 - Aug 2023</div>
+                </div><!--//item-->
+                <div class="item">
+                    <h4 class="degree"><i class="fas fa-user-graduate"></i> MSc. in Computer Science</h4>
+                    <h5 class="meta">African University of Science & Technology</h5>
+                    <div class="time">July 2016 - Dec 2017</div>
+                </div><!--//item-->
+                <div class="item">
+                    <h4 class="degree"><i class="fas fa-user-graduate"></i> MSc. in Computer Science</h4>
+                    <h5 class="meta">Nile University of Nigeria, Abuja</h5>
+                    <div class="time">Nov 2015 - July 2017</div>
+                </div><!--//item-->
+                <div class="item">
+                    <h4 class="degree"> <i class="fas fa-user-graduate"></i> BSc. in Computer Science</h4>
+                    <h5 class="meta">Nile University of Nigeria, Abuja</h5>
+                    <div class="time">Sept 2011 - June 2015</div>
+                </div><!--//item-->
+            </div><!--//education-container-->
+            
+            <div class="languages-container container-block">
+                <h2 class="container-block-title">Languages</h2>
+                <ul class="list-unstyled interests-list">
+                    <li>Ebira <span class="lang-desc"> </span> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> </li>
+                    <li>English <span class="lang-desc"> </span> <i class="fas fa-star"></i>  <i class="fas fa-star"></i>  <i class="fas fa-star"></i>  <i class="fas fa-star"></i>  <i class="far fa-star"></i> </li>
+                    <li>French <span class="lang-desc"> </span> <i class="fas fa-star"></i> <i class="far fa-star"></i> <i class="far fa-star"></i>   <i class="far fa-star"></i> <i class="far fa-star"></i> </li>
+                    <li>Turkish <span class="lang-desc"> </span> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i>   <i class="far fa-star"></i> <i class="far fa-star"></i> </li>
+                    <li>Hausa<span class="lang-desc"> </span> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i>   <i class="fas fa-star"></i> <i class="far fa-star"></i> </li>
+                </ul>
+            </div><!--//interests-->
+            
+            <div class="interests-container container-block">
+                <h2 class="container-block-title">Interests</h2>
+                <ul class="list-unstyled interests-list">
+                    <li>Programming  <i class="far fa-smile-beam fa-spin fa-lg"></i> </li>
+                    <li>Sleeping  <i class="fas fa-bed  fa-lg"></i> </li>
+                    <li>Cooking <i class="fas fa-utensils  fa-lg"></i> </li>
+                    <li>Travelling <i class="fas fa-plane-departure"></i></li>
+                </ul>
+            </div><!--//interests-->
+
+            <div class="interests-container container-block">
+              <h2 class="container-block-title">Facts about Me</h2>
+              <ul class="list-unstyled interests-list">
+                  <li> <b>Making a difference</b> <i>is my school day-dream</i> <i class="far fa-hand-peace"></i> </li>
+                  <li><b>Simple is best</b> <i class="fas fa-star fa-spin fa-lg"></i> </li> 
+              </ul>
+          </div><!--//interests-->
+            
+          <div class="interests-container container-block">
+            <h2 class="container-block-title">Quote</h2>
+            <ul class="list-unstyled interests-list">
+                <li> <b>Start by doing what is necessary...</b> <i>  </li>
+                <li> <b>Then what is possible...</b> <i>and soon,</i>    </li> 
+                <li><b> You will be doing the Impossible</b> <i class="fas fa-star fa-spin fa-lg"></i> </li> 
+            </ul>
+        </div><!--//interests-->
+        </div><!--//sidebar-wrapper-->
+        
+        <div class="main-wrapper">
+            
+            <section class="section summary-section">
+                <h2 class="section-title"><span class="icon-holder"><i class="far fa-file-alt fa-lg"></i></span>Career summary</h2>
+                <div class="summary">
+                    <p>Be the change you want to see <a href="#"></a> </p>
+                </div><!--//summary-->
+            </section><!--//section-->
+            
+            
+          <section class="section experiences-section">
+            <h2 class="section-title"><span class="icon-holder"><i class="fas fa-dice"></i></span>Experiences</h2>
+            
+            <div class="item">
+                <div class="meta">
+                    <div class="upper-row">
+                        <h3 class="job-title">Doctoral Research Student | Polytech Angers - <br>École d’ingénieurs de l’Université
+                            d’Angers</h3>
+                        <div class="time">Sept 2020 - Aug 2023</div>
+                    </div><!--//upper-row-->
+                    <div class="company">University of Angers, France</div>
+                </div><!--//meta-->
+                <div class="details">
+                    <li> Machine Learning application in Neuromedical Image processing </li>
+                    <li> Deep Neural Network Application in Neuromedical Image processing </li>
+                    <li> IRHS- ImHorPhen Bioimaging research group  </li>
+                  </div><!--//details-->
+            </div><!--//item-->
+
+            <div class="item">
+                <div class="meta">
+                    <div class="upper-row">
+                        <h3 class="job-title">Computer Science Lecturer & Alumni Relation officer</h3>
+                        <div class="time">Nov 2017 - Sept 2020</div>
+                    </div><!--//upper-row-->
+                    <div class="company">Nile University of Nigeria, Abuja</div>
+                </div><!--//meta-->
+                <div class="details">
+                    <li> Teach Undergraduate Computer Science Courses </li>
+                    <li> Assist Professors in research activities </li>
+                    <li> Coordinate Alumni Activities  </li>
+                  </div><!--//details-->
+            </div><!--//item-->
+            
+            <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Instructor | ICT Capacity Building</h3>
+                            <div class="time">March 2019 - April 2019</div>
+                        </div><!--//upper-row--> 
+                        <div class="company">International Consulting Expertise (ICE) |  <a href="http://www.ice-org.eu/">ICE EEIG</a></div>
+                    </div><!--//meta-->
+                    <div class="details"> 
+                        <li>Design Curriculum for ICT Capacity Building</li> 
+                        <li>Train Staff of the Ministry of Information & other agencies under the SUFEGOR programme</li> 
+                      </div><!--//details-->
+                </div><!--//item-->
+
+            <div class="item">
+                <div class="meta">
+                    <div class="upper-row">
+                        <h3 class="job-title">Software Programmer</h3>
+                        <div class="time">Sept 2015 - July 2016</div>
+                    </div><!--//upper-row-->
+                    <div class="company">Nile University of Nigeria</div>
+                </div><!--//meta-->
+                <div class="details">
+                    <li>  Software design and maintenance and School website maintenance  </li>  
+                    
+                </div><!--//details-->
+            </div><!--//item-->
+            
+            <div class="item">
+                <div class="meta">
+                    <div class="upper-row">
+                        <h3 class="job-title">Data Analyst (Consultant)</h3>
+                        <div class="time">November 2015</div>
+                    </div><!--//upper-row-->
+                    <div class="company">Independent National Electoral Commission (INEC)</div>
+                </div><!--//meta-->
+                <div class="details">
+                    <li>Database Analyst </li>  
+                    <li>Database Maintenance </li>
+                </div><!--//details-->
+            </div><!--//item-->
+
+            <div class="item">
+                <div class="meta">
+                    <div class="upper-row">
+                        <h3 class="job-title">Programming Instructor</h3>
+                        <div class="time">July 2015 - Date</div>
+                    </div><!--//upper-row-->
+                    <div class="company">Edu-Teens Science Development Foundation (ETSDF), WAAW Foundation, Codes2School.org & Google CS-First</div>
+                </div><!--//meta-->
+                <div class="details">
+                  <ul> 
+                    <li>STEM bootcamp Instructor </li>
+                    <li>Instructor, Curriculum and Program designer for MIT App-Inventor & Scratch</li>
+                    <li>Volunteer at Google SC-First Programs - Scratch Programming Instructor</li>
+                    <li>Volunteer at Google CS4HS - MIT App-Inventor Instructor</li>
+                  </ul> 
+                </div><!--//details-->
+            </div><!--//item-->
+
+            <div class="item">
+                <div class="meta">
+                    <div class="upper-row">
+                        <h3 class="job-title"> ICT-Technical Asisstant</h3>
+                        <div class="time">July 2014 - Sept 2014</div>
+                    </div><!--//upper-row-->
+                    <div class="company">Federal Minsitry of Health</div>
+                </div><!--//meta-->
+                <div class="details">
+                    <p> Student Industrial Training (IT) under ICT Unit</p>  
+                </div><!--//details-->
+            </div><!--//item-->
+            
+        </section><!--//section-->
+
+            <section class="section experiences-section">
+              <h2 class="section-title"><span class="icon-holder"><i class="fas fa-book-open fa-lg"></i></span>Training & Certification</h2>
+              
+
+              <div class="item">
+                <div class="meta">
+                    <div class="upper-row">
+                        <h3 class="job-title">Programming for Data Science with Python</h3>
+                        <div class="time">April 24, 2021</div>
+                    </div><!--//upper-row-->
+                    <div class="company">Udacity Nanodegree Program Graduate  </div>
+                </div><!--//meta-->
+                <div class="details">
+                    
+                </div><!--//details-->
+            </div><!--//item-->
+
+            <div class="item">
+                <div class="meta">
+                    <div class="upper-row">
+                        <h3 class="job-title">Strategic Leadership and Management</h3>
+                        <div class="time">Nov 30, 2020</div>
+                    </div><!--//upper-row-->
+                    <div class="company">Cousera Specialization Certificate - University of Illinois at Urbana-Champaign </div>
+                </div><!--//meta-->
+                <div class="details">
+                    <li>Managing the Organization, Designing the Organization, Corporate Strategy, Business Strategy,
+                        Strategic Leadership and Management Capstone, Foundations of Everyday Leadership, Applications of Everyday Leadership
+                </div><!--//details-->
+            </div><!--//item-->
+
+              <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Fundamentals of Deep Learning for Computer Vision</h3>
+                            <div class="time">August 30, 2019</div>
+                        </div><!--//upper-row-->
+                        <div class="company">NVIDIA Deep Learning Institute     </div>
+                    </div><!--//meta-->
+                    <div class="details">
+                        <li>Implement common deep learning workflows such as Image Classification and Object Detection  
+                        <li>Experiment with data, training parameters, network structure, and other strategies to increase performance and capability
+                        <li>Deploy your networks to start solving real-world problems.  
+                    </div><!--//details-->
+                </div><!--//item-->
+
+                <div class="item">
+                        <div class="meta">
+                            <div class="upper-row">
+                                <h3 class="job-title">Data Science Technologist</h3>
+                                <div class="time">2018 - 2020</div>
+                            </div><!--//upper-row-->
+                            <div class="company">IBM Skills Academy </div>
+                        </div><!--//meta-->
+                        <div class="details">
+                            <li>Theoritical & Practical Training | Mastery Exam Certificate  </li>  
+                          </div><!--//details-->
+                    </div><!--//item-->
+              
+              <div class="item">
+                  <div class="meta">
+                      <div class="upper-row">
+                          <h3 class="job-title">Machine Learning</h3>
+                          <div class="time">Jan, 2019</div>
+                      </div><!--//upper-row-->
+                      <div class="company">Stanford University (Online)</div>
+                  </div><!--//meta-->
+                  <div class="details">
+                      <li>Courses Includes: Linear Regression, Logistica Regression, Principal Component Analysis, Support Vector Machine  </li>  
+                      
+                  </div><!--//details-->
+              </div><!--//item-->
+              
+              <div class="item">
+                  <div class="meta">
+                      <div class="upper-row">
+                          <h3 class="job-title">Certified Secure Computer <strong>(CSCU)</strong> </h3>
+                          <div class="time">April 2018</div>
+                      </div><!--//upper-row-->
+                      <div class="company">EC-Council</div>
+                  </div><!--//meta-->
+                  <div class="details">
+                      <li>Basic fundamentals of computer security.  </li>  
+                  </div><!--//details-->
+              </div><!--//item-->
+
+              <div class="item">
+                <div class="meta">
+                    <div class="upper-row">
+                        <h3 class="job-title">IBM Big Data Developer</h3>
+                        <div class="time">April 2017</div>
+                    </div><!--//upper-row-->
+                    <div class="company">IBM Skills Academy</div>
+                </div><!--//meta-->
+                <div class="details">
+                    <li>Intensive Theoritical and Practical sessions with IBM Big Insight </li>  
+                </div><!--//details-->
+            </div><!--//item-->
+          </section><!--//section-->
+
+            <section class="section projects-section">
+                <h2 class="section-title"><span class="icon-holder"><i class="fas fa-hand-holding-usd"></i></span>Projects</h2>
+                <div class="intro">
+                    <p>Over the years, I have being involved in a number on goal driven projects some of which are mentioned below </p>
+                </div><!--//intro-->
+                <div class="item">
+                    <span class="project-title"><a href="#hook">Electronic Ballot Paper</a></span> - <span class="project-tagline">A Mobile/Tablet based e-balloting system for local and global result collation.</span>
+                    
+                </div><!--//item-->
+                <div class="item">
+                    <span class="project-title"><a href="#hook"  >Election Result Transmission & Collation System</a></span> - 
+                    <span class="project-tagline">SMS based result transmission and collation system for the rural and urban areas in Nigeria. </span>
+                </div><!--//item-->
+                <div class="item">
+                    <span class="project-title"><a href="#hook"  >Graphics & Web Design</a></span> - <span class="project-tagline">Static and dynamic web pages and web application develoment. Stickers, Flyer, banner design </span>
+                    <li> <a href="https://slu.edu.ng/" target="_blank">Sule Lamido University</a> </li>
+                </div><!--//item-->
+                <div class="item">
+                    <span class="project-title"><a href="https://play.google.com/store/apps/details?id=com.lukman.worldnationalflagchallenge&hl=en&gl=US" target="_blank" >Android Application Development</a></span> - <span class="project-tagline">Mobile App develoment for android phones</span>
+                </div><!--//item--> 
+            </section><!--//section-->
+            
+            <section class="section experiences-section">
+                <h2 class="section-title"><span class="icon-holder"><i class="fas fa-coffee"></i></span>Extracurricular Activity</h2>
+                
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">NUN Programmers Club</h3>
+                            <div class="time">June 2016 - Date</div>
+                        </div><!--//upper-row-->
+                        <div class="company">Club Founder & Coordinator</div>
+                    </div><!--//meta-->
+                    <div class="details">
+                        <p>General organization and coordination of club activities.  </p>  
+                      </div><!--//details-->
+                </div><!--//item-->
+                
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">IEEE Nigerian Sections </h3>
+                            <div class="time">2016 - Date</div>
+                        </div><!--//upper-row-->
+                        <div class="company">IEEE Nigerian Section</div>
+                    </div><!--//meta-->
+                    <div class="details">
+                        <p>Volunteer and Co-organizer of Activities </p>  
+                      </div><!--//details-->
+                  </div><!--//item--> 
+                     
+            <div class="item">
+                <div class="meta">
+                    <div class="upper-row">
+                        <h3 class="job-title">Program Committee </h3>
+                        <!-- <div class="time">Jan, 2019</div> -->
+                    </div><!--//upper-row-->
+                    <ul>
+                        <li><div class="company">LOC(Webmaster) - IEEE PES-IAS Power Africa conference 2019 </div></li>
+                        <li><div class="company">Nigerian Private University Games Association (NPUGA) </div></li>
+                        <li><div class="company">International Conference on Electronics, Computer and Computation (ICECCO 2017)</div></li>
+                        <li><div class="company">IEEE Association of Student & Young Professional Congress (ASYPC) 2016</div></li>
+                        <li><div class="company">International Conference on Electronics, Computer and Computation (ICECCO 2014)</div></li>
+                      </ul>
+                    
+                  </div><!--//meta-->
+              
+            </div><!--//item-->    
+        </section><!--//section-->
+
+            <section class="section experiences-section">
+                <h2 class="section-title"><span class="icon-holder"><i class="fas fa-award"></i></span>Honors & Awards</h2>
+                
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Academics</h3>
+                            <!-- <div class="time">2018 - 2020</div> -->
+                        </div><!--//upper-row-->
+                        <div class="company"><strong>Doctoral Scholarship</strong> Petroleum Technology Development Fund (PTDF), Nigeria  </div>
+                        <div class="company"><strong>Award of Excellence </strong> Software for Student Representative Counsel (SRC) Election - 2018</div>
+                        <div class="company"><strong>African Development Bank (ADB) Scholarship</strong> Full-M.Sc Scholarship program in Computer
+                            Science</div> 
+                        <div class="company"><strong>3rd Overall Best </strong> Graduating Students of Class 2015</div> 
+                        <div class="company"><strong>2nd Best  </strong> Graduating Students of Computer Science 2015</div>
+                    </div><!--//meta-->
+                    <div class="details">
+                         
+                      </div><!--//details-->
+                </div><!--//item-->
+                
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Extracurricular</h3>
+                            <!-- <div class="time">Jan, 2019</div> -->
+                        </div><!--//upper-row-->
+                        <div class="company"><strong>3rd Place </strong> Alumni Reunion Marathon - 2018</div>
+                        <div class="company"><strong>Program Facilitator </strong> STEM Boot-camp program by WAAW Foundation - 2016</div>
+                        <div class="company"><strong>2nd Place </strong> VC-Cup Football Tournament - 2015</div>
+                    </div><!--//meta-->
+                    <div class="details">
+                         
+                        
+                    </div><!--//details-->
+                </div><!--//item-->
+            </section><!--//section-->
+
+            <section class="section experiences-section">
+                <h2 class="section-title"><span class="icon-holder"><i class="fas fa-edit"></i></span>Academic Writing </h2>
+                
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Published Research Papers (Indexed) </h3>
+                            <!-- <div class="time">2018 - 2020</div> -->
+                        </div><!--//upper-row-->
+                        <ul>  
+
+                        <li><div class="details"><strong><a href="https://ieeexplore.ieee.org/abstract/document/9043283"> Deep Learning Methods for Filter Extraction in Tomato fruits</a></strong> <i>IEEE International Conference of Electoral Computing and Computation (ICECCO) </i>
+                            DOI: 10.1109/ICECCO48375.2019.9043283 (Dec 2019)</div></li>  
+                        <li><div class="details"><strong><a href="https://ieeexplore.ieee.org/document/9043193"> The Prospect and Significance of Lifeline: An E-blood bank System </a></strong> <i> IEEE International Conference of Electoral Computing and Computation (ICECCO) </i>
+                            DOI: 10.1109/ICECCO48375.2019.9043193 (Dec 2019)</div></li>                
+
+                        <li><div class="details"><strong><a href="http://www.ijcst.com/ijcst-10-3-july-sept-2019/"> An Intelligent Predictive Model for Electricity Consumption in Institutional Buildings Using Artificial Neural Networks</a></strong> <i>International Journal of Computer Science and Technology (IJCST) </i>
+                                    Vol 10 Issue 3 (July-Sept 2019)</div></li>                          
+                        <li><div class="details"><strong><a href="https://ieeexplore.ieee.org/document/8634802"> Decentralized Wireless Communication Using WI-FI in Battlefield Combat Identification
+                                    System Optimization</a></strong> <i>IEEE International Conference of Electoral Computing and Computation (ICECCO) </i>
+                                    Azerbaijan, Feb 2019</div></li> 
+                        <li><div class="details"><strong><a href="https://ieeexplore.ieee.org/document/8634683">Relevance of User Data Completeness in Resolving Differential Diagnosis in Medical Expert
+                                      System</a></strong> <i>IEEE International Conference of Electoral Computing and Computation (ICECCO) </i>
+                                      Azerbaijan, Feb 2019</div></li> 
+                        <li><div class="details"><strong><a href="https://ieeexplore.ieee.org/document/8333318">Local and Global Election Result collation & Transmission System</a></strong> <i>IEEE International Conference of Electoral Computing and Computation (ICECCO) </i>
+                                       Abuja, Dec 2017</div></li>
+                        <li><div class="details"><strong><a href="https://ieeexplore.ieee.org/document/8333315"> Adaptive Multimedia Learning Framework with Facial Recognition System</a></strong> <i>IEEE International Conference of Electoral Computing and Computation (ICECCO) </i>
+                                       Abuja, Dec 2017</div></li>
+                        <li><div class="details"><strong><a href="http://www.ijctjournal.org/archives.html" >Mobile Based Election Result Transmission & Collation System</a></strong>  <i>International Journal of Computing Techniques</i>
+                                        Vol 4 Issue 1, ISSN:2394-2231, Jan 2017</div></li>
+                        <li><div class="details"><strong><a href="http://www.ijctjournal.org/archives.html" >Design & Implementation of Electronic Balloting System</a></strong>  <i>International Journal of Computing Techniques</i>
+                                        Vol 4 Issue 1, ISSN:2394-2231, Jan 2017</div></li>             
+                        </ul>
+
+
+                    </div><!--//meta-->
+                     
+                </div><!--//item-->
+                
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Current Research Work</h3>
+                            <!-- <div class="time">Jan, 2019</div> -->
+                        </div><!--//upper-row-->
+                        
+                        <ul>
+                            <li><div class="details"><strong>Machine Learning In Neuroscience</strong> </div></li>  
+                        </ul>
+
+                    </div><!--//meta-->
+                     
+                </div><!--//item-->
+                
+            </section><!--//section-->
+
+            <section class="skills-section section">
+                <h2 class="section-title"><span class="icon-holder"><i class="fas fa-rocket"></i></span>Skills &amp; Proficiency</h2>
+                <div class="skillset">        
+                    <div class="item">
+                        <h3 class="level-title">Android Studio<em style="color: rgb(187, 78, 6);"> Mobile App Development</em> </h3>
+                        <div class="progress level-bar">
+						    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>                               
+                    </div><!--//item-->
+                    
+                    <div class="item">
+                        <h3 class="level-title">C/C++, Java, Python & Prolog  <em style="color: rgb(187, 78, 6);">Algorithm Design </em> </h3>
+                        <div class="progress level-bar">
+						    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>                              
+                    </div><!--//item-->
+                    
+                    <div class="item">
+                        <h3 class="level-title">MySql, NoSql, MongoDB <em style="color: rgb(187, 78, 6);">Databases</em> </h3>
+                        <div class="progress level-bar">
+						    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>                                 
+                    </div><!--//item-->
+                     
+                    <div class="item"> 
+                        <h3 class="level-title">HTML5 &amp; CSS, PHP, JavaScript, React and API <em style="color: rgb(187, 78, 6);">Web Design</em> </h3>
+                        <div class="progress level-bar">
+							    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>                                
+                    </div><!--//item-->
+                    
+                    <div class="item">
+                        <h3 class="level-title">Sklearn, OpenCV, TensorFlow, Pytorch, Streamlit and Viola <em style="color: rgb(187, 78, 6);">Data Science Research</em> </h3>
+                        <div class="progress level-bar">
+						    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>                                  
+                    </div><!--//item-->
+                    
+                    <div class="item"> 
+                        <h3 class="level-title"> Figma, Adobe Photoshop, Illustrator & Indesign  <em style="color: rgb(187, 78, 6);">Graphic Design</em> </h3>
+                        <div class="progress level-bar">
+						    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>                                 
+                    </div><!--//item-->
+
+                    <div class="item"> 
+                        <h3 class="level-title"> LaTeX  <em style="color: rgb(187, 78, 6);">Text Formating</em> </h3>
+                        <div class="progress level-bar">
+						    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>                                 
+                    </div><!--//item-->
+                    
+
+                </div>  
+            </section><!--//skills-section-->
+            
+        </div><!--//main-body-->
+    </div>
+  
+
+    </div>
+  </main>
+  <!--Main layout-->
+
+  <!--Footer-->
+  <footer class="page-footer text-center font-small primary-color-dark darken-2 mt-4 wow fadeIn">
+
+    <!--Call to action-->
+    <div class="pt-4">
+      <a class="btn btn-outline-white" href="cv.html"  role="button">Curriculum vitae  <i class="fas fa-eye"></i>  </a> 
+    </div>
+    <!--/.Call to action-->
+
+    <hr class="my-4">
+
+    <!-- Social icons -->
+    <div class="pb-4">  
+
+      <a href="https://www.youtube.com/channel/UCmkyN35bXrGpMhlQ84MEwOw/featured?view_as=subscriber" target="_blank">
+        <i class="fab fa-youtube mr-3"></i>
+      </a>
+  
+      <a href="https://www.linkedin.com/in/ismailukmanenegi/" target="_blank">
+        <i class="fab fa-linkedin mr-3"></i>
+      </a>
+
+      <a href="https://github.com/ismailukman" target="_blank">
+        <i class="fab fa-github mr-3"></i>
+      </a>
+    </div>
+    <!-- Social icons -->
+
+    <!--Copyright-->
+    <div class="footer-copyright py-3">
+      © 2021 Copyright:
+      <a href="#"  > www.ismailukman.com </a>
+    </div>
+    <!--/.Copyright-->
+
+  </footer>
+  <!--/.Footer-->
+
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Initializations -->
+  <script type="text/javascript">
+    // Animations initialization
+    new WOW().init();
+
+  </script>
+
+  
+</body>
+
+</html>
