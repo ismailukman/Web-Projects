@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Ismaila Lukman</title>
+    <!-- Font Awesome -->
+    
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+   
+    <!-- <link href="css/style.css" rel="stylesheet"> -->
+  
+      <!-- Google Font -->
+      <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+      <!-- FontAwesome JS -->
+      <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js" integrity="sha384-3LK/3kTpDE/Pkp8gTNp2gR/2gOiwQ6QaO7Td0zV76UFJVhqLl4Vl3KL1We6q6wR9" crossorigin="anonymous"></script>
+       
+      <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+      <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <style type="text/css">
+ .gallery-title
+{
+    font-size: 36px;
+    color: rgb(47, 82, 179);
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+.gallery-title:after {
+    content: "";
+    position: absolute;
+    width: 7.5%;
+    left: 46.5%;
+    height: 45px;
+    border-bottom: 1px solid #5e5e5e;
+}
+.filter-button
+{
+    font-size: 18px;
+    border: 1px solid rgb(47, 82, 179);;
+    border-radius: 5px;
+    text-align: center;
+    color: rgb(47, 82, 179); 
+    margin-bottom: 30px;
+
+}
+.filter-button:hover
+{
+    font-size: 18px;
+    border: 1px solid  rgb(47, 82, 179);
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    background-color:  rgb(47, 82, 179);
+
+}
+.btn-default:active .filter-button:active
+{
+    background-color:  rgb(47, 82, 179);
+    color: white;
+}
+
+.port-image
+{
+    width: 100%;
+}
+
+.gallery_product
+{
+    margin-bottom: 30px;
+}
+ 
+
+    </style>
+     
+</head>
+<body class="grey lighten-3">
+
+    <!--Main Navigation-->
+    <header>
+  
+      <!-- Navbar -->
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light white scrolling-navbar">
+        <div class="container-fluid">
+  
+          <!-- Brand 
+          <a class="navbar-brand waves-effect" href="#"  >
+            <strong class="blue-text">MDB</strong>
+          </a>-->
+  
+          <!-- Collapse -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <!-- Links -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  
+            <!-- Left -->
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active"> 
+                <a href="index.html" class="btn btn-outline-primary waves-effect"  role="button"> <i class="fas fa-home" aria-hidden="true"></i> Home <span class="sr-only">(current)</span>  </a>
+   
+              </li>
+              <li class="nav-item">
+                <a href="about.html" class="btn btn-outline-primary waves-effect" role="button">About</a>
+              </li>  
+  
+              <div class="dropdown">
+                <button class="btn btn-outline-primary dropdown-toggle waves-effect" type="button" id="dropdownMenu4" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
+                  Research
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenu4"> 
+                  <a class="dropdown-item" href="research.html">Projects</a>
+                </div>
+              </div>
+  
+              <div class="dropdown">
+                <button class="btn btn-outline-primary dropdown-toggle waves-effect" type="button" id="dropdownMenu4" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
+                  Portfolio
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenu4"> 
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="portfolio.html">Gallery</a>
+                  <a class="dropdown-item" href="lectures.html">Lectures</a>
+                  <a class="dropdown-item" href="sketch.php">Sketch</a>
+                </div>
+              </div>
+  
+            </ul>
+  
+            <!-- Right -->
+            <ul class="navbar-nav nav-flex-icons">
+              
+              <li class="nav-item">
+                <a href="https://www.linkedin.com/in/ismailukmanenegi/" class="nav-link border border-light rounded waves-effect"  >
+                  <i class="fab fa-linkedin mr-2"></i>Linkedin
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link border border-light rounded waves-effect" >
+                  <i class="fab fa-github mr-2"></i>GitHub
+                </a>
+              </li>
+            </ul>
+  
+          </div>
+  
+        </div>
+      </nav>
+      <!-- Navbar -->
+     
+    </header>
+    <!--Main Navigation-->
+  
+      <!--Main layout-->
+    <main class="pt-5 mx-lg-5">
+      <div class="container-fluid mt-5">
+        <!-- Heading -->
+  
+        <div class="wrapper">
+          <div class="main-wrapper">
+ <div class="container">
+        <div class="row"> 
+
+        <div align="center">
+            <button class="btn btn-default filter-button" data-filter="all">All</button>
+            <button class="btn btn-default filter-button" data-filter="personal">Personal</button>
+            <button class="btn btn-default filter-button" data-filter="places">Places</button>
+            <button class="btn btn-default filter-button" data-filter="outreach">Outreach</button>
+            <button class="btn btn-default filter-button" data-filter="others">Others</button>
+        </div>
+        <br/>
+
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter all">
+                <img src="assets/images/gallery/parents.png" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter all">
+                <img src="assets/images/gallery/tinyme.png" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter all">
+                <img src="assets/images/gallery/haji.png " class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter places">
+                <img src="assets/images/gallery/haj.png" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter places">
+              <img src="assets/images/gallery/mummymed.png" class="img-responsive">
+          </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter all">
+                <img src="assets/images/gallery/me.png" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter personal">
+                <img src="assets/images/gallery/sis.png" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter personal">
+                <img src="assets/images/gallery/work.png" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter personal">
+                <img src="assets/images/gallery/ohinoyo.png" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter places">
+                <img src="assets/images/gallery/horse.png" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter places">
+              <img src="assets/images/gallery/anko.png" class="img-responsive">
+          </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter others">
+                <img src="assets/images/gallery/Msc.png" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter others">
+                <img src="assets/images/gallery/nysc.png" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter others">
+                <img src="assets/images/gallery/mentor.png" class="img-responsive">
+            </div>
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter outreach">
+                  <img src="assets/images/gallery/aficancodeweek.png" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter outreach">
+              <img src="assets/images/gallery/aficancodeweek1.png" class="img-responsive">
+          </div>
+          <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter places">
+            <img src="assets/images/gallery/cap.png" class="img-responsive">
+        </div>
+
+        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter outreach">
+          <img src="assets/images/gallery/eusofugor.png" class="img-responsive">
+         </div>
+
+          <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter places">
+            <img src="assets/images/gallery/forestlagos.png" class="img-responsive">
+        </div>
+          <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter others">
+          <img src="assets/images/gallery/futurehack.png" class="img-responsive">
+         </div> 
+
+         <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter others">
+          <img src="assets/images/gallery/lifeline.png" class="img-responsive">
+         </div>
+          <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter others">
+            <img src="assets/images/gallery/asypc.png" class="img-responsive">
+          </div>
+
+          <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter places">
+            <img src="assets/images/gallery/culture.png" class="img-responsive">
+           </div>
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter places">
+              <img src="assets/images/gallery/ball.png" class="img-responsive">
+            </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+</div><!--//main-body-->
+</div>
+
+</div>
+</main>
+<!--Main layout-->
+
+<!--Footer-->
+<footer class="page-footer text-center font-small primary-color-dark darken-2 mt-4 wow fadeIn">
+
+<!--Call to action-->
+<div class="pt-4">
+  <a class="btn btn-outline-white" href="cv.html"  role="button">Curriculum vitae
+    <i class="fas fa-eye ml-2"></i>
+  </a> 
+</div>
+<!--/.Call to action-->
+
+<hr class="my-4">
+
+<!-- Social icons -->
+<div class="pb-4">  
+
+  <a href="https://www.youtube.com/channel/UCmkyN35bXrGpMhlQ84MEwOw/featured?view_as=subscriber" target="_blank">
+    <i class="fab fa-youtube mr-3"></i>
+  </a>
+
+  <a href="https://www.linkedin.com/in/ismailukmanenegi/" target="_blank">
+    <i class="fab fa-linkedin mr-3"></i>
+  </a>
+
+  <a href="https://github.com/ismailukman" target="_blank">
+    <i class="fab fa-github mr-3"></i>
+  </a>
+</div>
+<!-- Social icons -->
+
+<!--Copyright-->
+<div class="footer-copyright py-3">
+  © 2021 Copyright:
+  <a href="#"  > www.ismailukman.com </a>
+</div>
+<!--/.Copyright-->
+
+</footer>
+<!--/.Footer-->
+
+<!-- SCRIPTS -->
+<!-- JQuery -->
+<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="js/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="js/mdb.min.js"></script>
+<!-- Initializations -->
+<script type="text/javascript">
+// Animations initialization
+new WOW().init();
+
+</script>
+<script type="text/javascript">
+$(document).ready(function(){
+
+    $(".filter-button").click(function(){
+        var value = $(this).attr('data-filter');
+        
+        if(value == "all")
+        {
+            //$('.filter').removeClass('hidden');
+            $('.filter').show('1000');
+        }
+        else
+        {
+//            $('.filter[filter-item="'+value+'"]').removeClass('hidden');
+//            $(".filter").not('.filter[filter-item="'+value+'"]').addClass('hidden');
+            $(".filter").not('.'+value).hide('3000');
+            $('.filter').filter('.'+value).show('3000');
+            
+        }
+    });
+    
+    if ($(".filter-button").removeClass("active")) {
+$(this).removeClass("active");
+}
+$(this).addClass("active");
+
+});
+</script>
+</body>
+</html>
